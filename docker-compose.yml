@@ -7,8 +7,8 @@ services:
       - db
       - redis
     environment:
-      APP_URL: 'http://localhost:3000'
-      APP_SECRET: 'REPLACE_WITH_LONG_SECRET'
+      APP_URL: 'http://192.168.177.138:3000'
+      APP_SECRET: '2f8a3b4c5d6e7f8a9b0c1d2e3f4a5b6c'
       DATABASE_URL: 'postgresql://docmost:STRONG_DB_PASSWORD@db:5432/docmost?schema=public'
       REDIS_URL: 'redis://redis:6379'
     ports:
