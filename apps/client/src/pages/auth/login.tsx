@@ -10,7 +10,7 @@ export default function LoginPage() {
     <>
       <Helmet>
         <title>
-          {t("Login")} - {getAppName()}
+          这里是login.tsx界面{t("Login")} - {getAppName()}
         </title>
       </Helmet>
       <LoginForm />
