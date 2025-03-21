@@ -65,7 +65,7 @@ export function LoginForm() {
     <Container size={420} className={classes.container}>
       <Box p="xl" className={classes.containerBox}>
         <Title order={2} ta="center" fw={500} mb="md">
-          {t("Login")}
+         这里是login-form.tsx界面 {t("Login")}
         </Title>
 
         <SsoLogin />
@@ -102,7 +102,7 @@ export function LoginForm() {
               </Group>
 
               <Button type="submit" fullWidth mt="md" loading={isLoading}>
-                {t("Sign In")}
+               这里是login-form.tsx界面 {t("Sign In")}
               </Button>
             </form>
           </>
